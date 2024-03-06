@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.css" />
+
+    <title>Password Checker</title>
+</head>
+<body>
+
+<div class="main-ctr">
+    <div class="main">
+        <div class="logo">
+            <h2>prazor</h2>
+        </div>
+    
+    
+    <nav class="navbar" id="nav">
+        <ul>
+            <li --style="i:1"><a href="#"  >Home</a></li>
+            <li --style="i:2"><a href="#"  >About</a></li>
+            <li --style="i:3"><a href="#"  >Services</a></li>
+            <li --style="i:4"><a href="#"  >Contact</a></li>
+        </ul>
+    </nav>
+    <div class="search-btn">
+        <input type="search" placeholder="search.." class="search">
+    </div>
+    <button id="menu-toggle" class="menu-button">&#9776; </button>
+</div>
+
+<div class="body-content">
+
+<div class="container test">
+    <span  class="border-top animate"></span>
+    <span class="border-right animate"></span>
+    <span class="border-bottom animate"></span>
+    <span class="border-left animate"></span>
+    <div class="cv">
+        <a href="Cv.pdf">download  cv</a>
+    </div>
+    
+</div>
+
+<div class="form-section">
+<div class="grid-box mainForm id="ctr">
+    
+    <form action="home.html" class="frm">
+        <h1 class="frm-heading"> password checker</h1>
+        <div class="input">
+           
+
+            <div class="input-box">
+                <input type="name" id="name" placeholder="user name" required>
+            </div>
+            <div class="input-box">                
+                <input type="password" id="myPassword" placeholder="password " 
+                required oninput="check()">
+                <div class="show"> </div>
+            </div>
+
+            <div id="count">
+                <span>length : 0</span>
+                <div class="remember-me">
+                    <input type="checkbox"><span >remember me</span>
+                </div>
+                
+            </div>
+
+            <div id="check0" class="check">
+                <i class="fa fa-check-circle"></i> <span> Length More than 5.</span>
+            </div>
+            <div id="check1" class="check">
+                <i class="fa fa-check-circle"></i> <span> Length  more  than 10.</span>
+            </div>
+            <div id="check2" class="check">
+                <i class="fa fa-check-circle"></i> <span> Contains upperCase character.</span>
+            </div>
+            <div id="check3" class="check">
+                <i class="fa fa-check-circle"></i> <span> Contains numerical character.</span>
+            </div>
+    
+            <div id="check4" class="check">
+                 <i class="fa fa-check-circle"></i><span> contains special character.</span>
+            </div>
+    
+
+            <div class="btn">
+                <button type="submit" id="login-btn">Login</button>
+            </div>
+
+
+            <div class="register">
+                <p>Don't have account ? <span><a href="#">Register</a></span> </p>
+            </div>
+
+            <div class="strength-meter">
+
+            </div>
+
+            </div>
+        </form>
+    </div>
+</div>
+
+
+</div>
+
+
+    <script src="script.js">
+        
+
+
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
